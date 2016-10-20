@@ -17,4 +17,10 @@ public class MainActivity extends AppCompatActivity {
         Intent it = new Intent(MainActivity.this, Main2Activity.class);
         startActivity(it);
     }
+    public void click2(View v)
+    {
+        Intent it = new Intent();
+        it.setAction("CALL123");
+        startActivity(it);
+    }
 }
